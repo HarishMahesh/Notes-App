@@ -1,0 +1,35 @@
+.notes_container {
+  padding: 15px;
+  background-color: #5dcbd34d;
+  border-radius: 10px;
+  color: #ffffffb5;
+}
+
+.notes_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notes_title > h5 {
+  color: aqua !important;
+}
+
+.notes_content > p {
+  margin-bottom: 4px;
+}
+
+.notes_content {
+  height: 200px;
+  overflow: auto;
+}
+
+.notes_date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notes_date {
+  color: aqua !important;
+}

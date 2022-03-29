@@ -1,0 +1,41 @@
+.login_container {
+  margin-top: 100px;
+}
+
+.login_form_container {
+  border: 8px solid white;
+  padding: 15px;
+}
+
+.login_input_container > label {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: whitesmoke;
+}
+
+.login_input_container > input,
+textarea {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: none;
+}
+
+.login_btn_container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.login_container p {
+  color: whitesmoke;
+}
+
+.login_container p > b {
+  cursor: pointer;
+}
+
+.login_err_msg {
+  margin-top: 10px;
+  color: red !important;
+}

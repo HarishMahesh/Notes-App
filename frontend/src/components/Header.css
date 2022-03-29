@@ -1,0 +1,36 @@
+.header_container {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: whitesmoke;
+  background-color: #da5fcd87;
+}
+
+.header_title {
+  flex: 1;
+  text-align: center;
+}
+
+.header_options {
+  flex: 1;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.header_options > b {
+  cursor: pointer;
+}
+
+@media (max-width: 495px) {
+  .header_container {
+    flex-direction: column;
+  }
+
+  .header_options {
+    gap: 40px;
+  }
+}
